@@ -1,3 +1,5 @@
+console.log("✅ Skrypt zliczanie_fejkow.js załadowany!");
+alert("✅ Skrypt uruchomiony – gotowy do działania!");
 (async function(){
   const input = prompt("Wklej dane z Planera (linki + gracz)");
   if(!input) { return alert("Brak danych!"); }
